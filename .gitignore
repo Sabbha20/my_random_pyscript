@@ -2,3 +2,5 @@
 .myenv/*.*
 *env
 *env/
+.idea/
+.idea/*.*
