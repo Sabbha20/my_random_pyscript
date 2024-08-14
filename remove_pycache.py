@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 def delete_pycache(start_dir):
     deleted_count = 0
     deleted_locations = []
@@ -14,6 +15,7 @@ def delete_pycache(start_dir):
             deleted_locations.append(pycache_path)
 
     return deleted_count, deleted_locations
+
 
 # Get the home directory
 home_dir = os.path.expanduser('~')
