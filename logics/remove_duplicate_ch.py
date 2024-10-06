@@ -6,7 +6,6 @@ s = "Sabbha Sachi Mondal"
 
 def remove_duplicates(s):
     lst = []
-    s1 = ""
     for ele in s:
         if ele not in lst:
             lst.append(ele)
